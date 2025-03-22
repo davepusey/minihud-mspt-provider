@@ -3,9 +3,9 @@
 	"id": "minihud-mspt-provider",
 	"version": "${version}",
 	"name": "MiniHUD MSPT Provider",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Very simple server-side mod to provide MSPT data to masa's MiniHUD mod.",
 	"authors": [
-		"Me!"
+		"Dave Pusey"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -23,12 +23,9 @@
 		"minihud-mspt-provider.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.16.10",
+		"fabricloader": ">=0.16.9",
 		"minecraft": "~1.21.4",
 		"java": ">=21",
 		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
 	}
 }
