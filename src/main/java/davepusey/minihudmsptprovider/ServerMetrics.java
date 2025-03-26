@@ -8,8 +8,6 @@ public class ServerMetrics
 
     public static float MSPT(MinecraftServer server)
     {
-        //long[] tickTimes = server.getTickTimes();
-        //float lastTickTimeMs = (float) tickTimes[tickTimes.length - 1] / 1000000;
         float lastTickTimeMs = (float) lastTickSample / 1000000;
         return lastTickTimeMs;
     }

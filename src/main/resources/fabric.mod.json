@@ -8,8 +8,8 @@
 		"Dave Pusey"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/davepusey/minihud-mspt-provider",
+		"sources": "https://github.com/davepusey/minihud-mspt-provider"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/minihud-mspt-provider/icon.png",
@@ -23,8 +23,8 @@
 		"minihud-mspt-provider.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.16.9",
-		"minecraft": "~1.21.4",
+		"fabricloader": ">=0.16.10",
+		"minecraft": "1.21.5",
 		"java": ">=21",
 		"fabric-api": "*"
 	}
