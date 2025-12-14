@@ -15,8 +15,8 @@ import net.minecraft.server.MinecraftServer;
 public class MinecraftServerMixin
 {
     @Inject(at = @At("TAIL"), method = "Lnet/minecraft/server/MinecraftServer;tickServer(Ljava/util/function/BooleanSupplier;)V")
-    public void tickServer(BooleanSupplier shouldKeepTicking, CallbackInfo info, @Local(ordinal = 1) long m)
+    public void tickServer(BooleanSupplier shouldKeepTicking, CallbackInfo info, @Local(name = "tickTime") long tickTime)
     {
-        ServerMetrics.setLastTickSample(m);
+        ServerMetrics.setLastTickSample(tickTime);
     }
 }
