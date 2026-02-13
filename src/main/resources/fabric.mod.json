@@ -23,9 +23,9 @@
 		"minihud-mspt-provider.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.17.2",
-		"minecraft": "1.21.10",
-		"java": ">=21",
-		"fabric-api": "*"
+		"fabricloader": ">=0.18.4",
+		"minecraft": "1.21.11",
+		"java": "21",
+		"fabric-api": ">=0.141.3+1.21.11"
 	}
 }
