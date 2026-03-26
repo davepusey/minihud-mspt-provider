@@ -18,8 +18,8 @@ public class ServerMetrics
         return lastTickRate;
     }
 
-    public static void setLastTickSample(long m)
+    public static void setLastTickSample(long tickTime)
     {
-        lastTickSample = m;
+        lastTickSample = tickTime;
     }
 }
